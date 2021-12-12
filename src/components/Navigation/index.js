@@ -11,12 +11,7 @@ function Navigation(props) {
                     <Link to="/about">ABOUT ME</Link>
                 </li>
                 <li>
-                    <Link
-                        to={'/portfolio'}
-                        onClick={() => navSelection('portfolio')}
-                        className={`${navClass === 'portfolio'}`}>
-                            PORTFOLIO
-                    </Link>
+                    <Link to="/project">PORTFOLIO</Link>
                 </li>
                 <li>
                     <Link

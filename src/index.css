@@ -125,3 +125,25 @@ footer img {
   display: inline-block;
   font-size: large;
 }
+
+.projectMainDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.projectMainDiv h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.projectMainDiv a {
+  text-decoration: none;
+  color: var(--second-accent-color)
+}
+
+.projectMainDiv img {
+  width: 35%;
+  height: auto;
+}
