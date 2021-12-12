@@ -1,9 +1,10 @@
 import React from 'react';
+import andrew from '../../assets/misc/Profile.jpg'
 
 function About() {
     return(
         <div className="aboutMainDiv">
-            <h1>ABOUT ME</h1>
+            <h1 className="selected">ABOUT ME</h1>
             <div className="aboutSecondaryDiv">
                 <div className="aboutLeft">
                     <h2>Hey, I'm <span>Andrew Durham</span></h2>
@@ -15,7 +16,7 @@ function About() {
                     </p>
                 </div>
                 <div className="aboutRight">
-                    <img src="../../assets/misc/Profile.jpg" alt="A smiling Andrew"/>
+                    <img src={andrew} alt="A smiling Andrew"/>
                 </div>
             </div>
         </div>
