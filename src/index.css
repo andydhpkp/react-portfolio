@@ -27,6 +27,10 @@ h1, h2, h3 {
   font-weight: normal;
 }
 
+h3 {
+  color: var(--selected-color)
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -67,12 +71,59 @@ nav {
   display: flex;
 }
 
+.contactDiv {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.contactDiv h1 {
+  width: 100%;
+}
+
+.contactDiv div {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+form {
+  text-align: center;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+div input {
+  width: 250px;
+  font-family: 'Bitter';
+}
+
 span {
   color: var(--name-accent-color)
 }
 
+textarea {
+  font-family: 'Bitter';
+}
+
+#contactButton {
+  font-family: 'Bitter';
+  padding: 4px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 8px;
+}
+
 .selected {
-  color: var(--selected-color)
+  color: var(--selected-color);
+  font-size: 2em;
+  width: 100%;
+  text-align: center;
 }
 
 .aboutMainDiv {
@@ -103,6 +154,35 @@ span {
 .aboutRight img {
   width: 550px;
   height: auto;
+}
+
+.resumeMainDiv {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+.resumeMainDiv li {
+  margin-top: 20px;
+}
+
+.frontEndDiv {
+  margin: 0 auto;
+}
+
+.frontEndDiv ul {
+  text-align: left;
+  list-style: none;
+}
+
+.backEndDiv {
+  margin: 0 auto;
+}
+
+.backEndDiv ul {
+  text-align: left;
+  list-style: none;
 }
 
 footer {
@@ -146,4 +226,9 @@ footer img {
 .projectMainDiv img {
   width: 35%;
   height: auto;
+}
+
+#resume {
+  text-decoration: none;
+  color: var(--second-accent-color);
 }

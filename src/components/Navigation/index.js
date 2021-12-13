@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Navigation(props) {
-    const { navSelection, navClass } = props
+function Navigation() {
 
     return(
         <nav>
@@ -14,20 +13,10 @@ function Navigation(props) {
                     <Link to="/project">PORTFOLIO</Link>
                 </li>
                 <li>
-                    <Link
-                        to={'/contact'}
-                        onClick={() => navSelection('contact')}
-                        className={`${navClass === 'contact'}`}>
-                            CONTACT
-                    </Link>
+                    <Link to={'/contact'}>CONTACT</Link>
                 </li>
                 <li>
-                    <Link
-                        to={'/resume'}
-                        onClick={() => navSelection('resume')}
-                        className={`${navClass === 'resume'}`}>
-                            RESUME
-                    </Link>
+                    <Link to={'/resume'}>RESUME</Link>
                 </li>
             </ul>
         </nav>
