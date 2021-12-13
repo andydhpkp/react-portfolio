@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.80617b30.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.3474aa2b.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.3474aa2b.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.c6c0e085.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.c6c0e085.js.map",
+    "static/js/2.3f745bd9.chunk.js": "/react-portfolio/static/js/2.3f745bd9.chunk.js",
+    "static/js/2.3f745bd9.chunk.js.map": "/react-portfolio/static/js/2.3f745bd9.chunk.js.map",
+    "static/js/3.be9bb34e.chunk.js": "/react-portfolio/static/js/3.be9bb34e.chunk.js",
+    "static/js/3.be9bb34e.chunk.js.map": "/react-portfolio/static/js/3.be9bb34e.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.80617b30.chunk.css.map": "/react-portfolio/static/css/main.80617b30.chunk.css.map",
+    "static/js/2.3f745bd9.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.3f745bd9.chunk.js.LICENSE.txt",
+    "static/media/Pass-Stache.fec0caaf.png": "/react-portfolio/static/media/Pass-Stache.fec0caaf.png",
+    "static/media/PlaylistGenerator.ef7c49db.png": "/react-portfolio/static/media/PlaylistGenerator.ef7c49db.png",
+    "static/media/Profile.042051c3.jpg": "/react-portfolio/static/media/Profile.042051c3.jpg",
+    "static/media/Resume.53a58930.pdf": "/react-portfolio/static/media/Resume.53a58930.pdf",
+    "static/media/employeeTracker.cef0bbf1.png": "/react-portfolio/static/media/employeeTracker.cef0bbf1.png",
+    "static/media/github.987334e9.png": "/react-portfolio/static/media/github.987334e9.png",
+    "static/media/linkedIn.7ce49e5f.png": "/react-portfolio/static/media/linkedIn.7ce49e5f.png",
+    "static/media/readMeGenerator.d49b8185.png": "/react-portfolio/static/media/readMeGenerator.d49b8185.png",
+    "static/media/stackoverflow-com-logo-black-and-white.8371b27f.png": "/react-portfolio/static/media/stackoverflow-com-logo-black-and-white.8371b27f.png",
+    "static/media/weather-outlook.49bc3367.png": "/react-portfolio/static/media/weather-outlook.49bc3367.png",
+    "static/media/work-day.4e2c0e4d.png": "/react-portfolio/static/media/work-day.4e2c0e4d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6c0e085.js",
+    "static/js/2.3f745bd9.chunk.js",
+    "static/css/main.80617b30.chunk.css",
+    "static/js/main.3474aa2b.chunk.js"
+  ]
+}
