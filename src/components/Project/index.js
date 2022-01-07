@@ -5,12 +5,20 @@ import EmployeeTracker from '../../assets/projects/employeeTracker.png'
 import readMeGenerator from '../../assets/projects/readMeGenerator.png'
 import PlaylistGenerator from '../../assets/projects/PlaylistGenerator.png'
 import PassStache from '../../assets/projects/Pass-Stache.png'
+import Permaculture from '../../assets/projects/Permaculture-Collective.png'
 
 
 function Project() {
     return(
         <div className="projectMainDiv"> 
             <h1 className="selected">PORTFOLIO</h1>
+            <div>
+                <a href="https://permaculture-exchange.herokuapp.com/">
+                    <img src={Permaculture} alt="Permaculture homepage"/>
+                </a>
+                <h2>Utah Permaculture Collective</h2>
+                <h3><a href="https://github.com/JD-Rowley/permaculture-exchange">GitHub Repository</a></h3>
+            </div>
             <div>
                 <a href="https://thawing-temple-09016.herokuapp.com/">
                     <img src={PassStache} alt="PassStache homepage"/>
